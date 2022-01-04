@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "255286596077",
+    "project_id": "cs3714-finalproject",
+    "storage_bucket": "cs3714-finalproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255286596077:android:530d56572c2dd3ff7597e4",
+        "android_client_info": {
+          "package_name": "com.example.foodieplanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255286596077-u80k8p0cpu8i0g1db35ji7r2ud195hth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ03KWWzaFJrCWcCsLB64om-dCIUY5O9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255286596077-u80k8p0cpu8i0g1db35ji7r2ud195hth.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

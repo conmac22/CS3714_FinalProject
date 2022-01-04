@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Food Manager</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    // Menus
+    <string name="main_menu_add">Add Meal</string>
+    <string name="bottom_menu_home">Home</string>
+    <string name="bottom_menu_meals">Meals</string>
+    <string name="bottom_menu_plan">Plan</string>
+
+    // Plan Fragment
+    <string name="grocerylist">View Grocery List</string>
+
+    // Add Ingredient Form
+    <string name="ig_name_hint">Name*</string>
+    <string name="ig_quantity_hint">Quantity*</string>
+    <string name="us_standard">US</string>
+    <string name="metric_standard">Metric</string>
+    <string name="volume">Volume</string>
+    <string name="weight">Weight</string>
+    <string name="absolute">Quantity</string>
+    <string name="standard">Standard</string>
+    <string name="measurement">Measure By</string>
+    <string name="unit">Units</string>
+
+    // New Meal Form
+    <string name="meal_name_hint">Name</string>
+    <string name="new_ingredient_button">Add</string>
+    <string name="new_instruction_button">Add</string>
+    <string name="day_meal_title">Title</string>
+    <string name="day_meal_subtitle">subtitle</string>
+    <string name="home_card_day">Monday</string>
+    <string name="home_card_date">01</string>
+    <string name="instruction_text_field_description">Add Description</string>
+    <string name="new_meal_album_select">Select Album</string>
+    <string name="ingredients_text">Ingredients</string>
+    <string name="instructions_text">Instructions</string>
+    <string name="cost_n_100">Cost\n$100</string>
+    <string name="calories_n1500g">Calories\n1500g</string>
+    <string name="ingredients_header">Ingredients</string>
+    <string name="instructions_header">Instructions</string>
+    <string name="meal_cost">$10.98</string>
+    <string name="meal_calories">1200 Calories</string>
+    <string name="plan_calendar_button">11/14 - 11/15</string>
+    <string name="cost">$130</string>
+    <string name="complete_button">Complete</string>
+    <string name="all_meals_button">All Meals</string>
+    <string name="albums_button">Albums</string>
+    <string name="add_album_button">Add album</string>
+    <string name="ingredient_amount">0.0</string>
+    <string name="ingredient_name">Potatoes</string>
+    <string name="instruction_number">Default</string>
+    <string name="instruction_data">Default</string>
+    <string name="new_meal_ingredient_quantity">5 cups</string>
+    <string name="new_meal_ingredient_text">Apples</string>
+    <string name="new_meal_instruction_count">Step 1</string>
+    <string name="new_meal_instruction_description">Put the chicken in the oven roast for approximately 40 minutes</string>
+    <string name="plan_grocery_checkbox">Checkbox</string>
+    <string name="plan_grocery_quantity">TextView</string>
+    <string name="card_image_description">Card image</string>
+    <string name="meal_card_rating">0.0</string>
+    <string name="home_card_meals">3 meals</string>
+    <string name="home_card_cals">1200 cals</string>
+    <string name="home_card_price">$30</string>
+    <string name="album_card">albumn card</string>
+    <string name="calories_hint">Calories</string>
+    <string name="cost_hint">Cost</string>
+    <string name="submit_button">Submit</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="@string/bottom_menu_home"/>
+
+    <item
+        android:id="@+id/plannerFragment"
+        android:icon="@drawable/ic_list"
+        android:title="@string/bottom_menu_plan"/>
+
+    <item
+        android:id="@+id/savedMealsFragment"
+        android:icon="@drawable/ic_meal"
+        android:title="@string/bottom_menu_meals"/>
+
+</menu>

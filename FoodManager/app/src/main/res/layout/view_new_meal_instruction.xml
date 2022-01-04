@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/instruction_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:minHeight="?attr/minTouchTargetSize"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <TextView
+        android:id="@+id/new_meal_instruction_count"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:text="@string/new_meal_instruction_count"
+        android:textAlignment="textStart"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+    <TextView
+        android:id="@+id/new_meal_instruction_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_meal_instruction_description"
+        android:textAlignment="textStart"
+        android:textAppearance="?attr/textAppearanceListItemSecondary"
+        android:textColor="?android:attr/textColorSecondary" />
+
+</LinearLayout>

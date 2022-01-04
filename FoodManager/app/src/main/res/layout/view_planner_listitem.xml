@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:minHeight="?attr/minTouchTargetSize"
+    android:padding="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/plan_grocery_checkbox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:checked="false"
+        android:text="@string/plan_grocery_checkbox"
+        android:textColor="@color/presitgeblue"
+        android:textSize="16sp"
+        android:textStyle="normal">
+
+    </com.google.android.material.checkbox.MaterialCheckBox>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/plan_grocery_quantity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/plan_grocery_quantity"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/grisilla"
+        android:textSize="16sp">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+</LinearLayout>

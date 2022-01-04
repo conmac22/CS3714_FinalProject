@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ingredient_amount"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ingredient_amount"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <View
+            android:id="@+id/vertical_divider"
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.05"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/ingredient_name"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ingredient_name"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/horizontal_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.05"
+        android:background="?android:attr/listDivider" />
+
+
+</LinearLayout>

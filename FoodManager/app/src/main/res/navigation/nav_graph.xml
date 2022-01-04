@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.foodieplanner.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_dayFragment"
+            app:destination="@id/dayFragment"
+            app:popUpTo="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/savedMealsFragment"
+        android:name="com.example.foodieplanner.SavedMealsFragment"
+        android:label="fragment_saved_meals"
+        tools:layout="@layout/fragment_saved_meals" >
+        <action
+            android:id="@+id/action_savedMealsFragment_to_albumsFragment"
+            app:destination="@id/albumsFragment"
+            app:popUpTo="@id/savedMealsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/plannerFragment"
+        android:name="com.example.foodieplanner.PlannerFragment"
+        android:label="fragment_planner"
+        tools:layout="@layout/fragment_planner" >
+        <action
+            android:id="@+id/action_plannerFragment_to_groceryListFragment"
+            app:destination="@id/groceryListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/albumsFragment"
+        android:name="com.example.foodieplanner.AlbumsFragment"
+        android:label="fragment_albums"
+        tools:layout="@layout/fragment_albums" >
+        <action
+            android:id="@+id/action_albumsFragment_to_mealFragment"
+            app:destination="@id/mealFragment"
+            app:popUpTo="@id/albumsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/groceryListFragment"
+        android:name="com.example.foodieplanner.GroceryListFragment"
+        android:label="fragment_grocery_list"
+        tools:layout="@layout/fragment_grocery_list" />
+    <fragment
+        android:id="@+id/mealFragment"
+        android:name="com.example.foodieplanner.MealFragment"
+        android:label="fragment_meal"
+        tools:layout="@layout/fragment_meal" />
+    <fragment
+        android:id="@+id/dayFragment"
+        android:name="com.example.foodieplanner.DayFragment"
+        android:label="fragment_day"
+        tools:layout="@layout/fragment_day" >
+        <action
+            android:id="@+id/action_dayFragment_to_pickMealsFragment"
+            app:destination="@id/pickMealsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pickMealsFragment"
+        android:name="com.example.foodieplanner.PickMealsFragment"
+        android:label="fragment_pick_meals"
+        tools:layout="@layout/fragment_pick_meals" />
+</navigation>

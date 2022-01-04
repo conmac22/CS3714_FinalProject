@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/selectableItemBackground"
+    android:minHeight="?attr/minTouchTargetSize"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/new_meal_ingredient_quantity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="@string/new_meal_ingredient_quantity"
+            android:textAlignment="textStart"
+            android:textAppearance="?attr/textAppearanceListItemSmall"
+            android:textColor="?android:attr/textColorSecondary" />
+
+        <TextView
+            android:id="@+id/new_meal_ingredient_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="@string/new_meal_ingredient_text"
+            android:textAlignment="textStart"
+            android:textAppearance="?attr/textAppearanceListItem"
+            app:drawableEndCompat="@drawable/ic_edit"
+            app:drawableTint="@color/black" />
+
+    </LinearLayout>
+
+</LinearLayout>

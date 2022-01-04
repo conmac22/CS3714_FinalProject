@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item type="id" name="tsp"/>
+    <item type="id" name="tbsp"/>
+    <item type="id" name="floz"/>
+    <item type="id" name="cup"/>
+    <item type="id" name="quart"/>
+    <item type="id" name="gal"/>
+    <item type="id" name="pint"/>
+    <item type="id" name="ml"/>
+    <item type="id" name="liter"/>
+    <item type="id" name="pound"/>
+    <item type="id" name="ounce"/>
+    <item type="id" name="grams"/>
+    <item type="id" name="mg"/>
+    <item type="id" name="kg"/>
+    <item type="id" name="none"/>
+
+</resources>
